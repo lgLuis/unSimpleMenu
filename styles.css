@@ -4,3 +4,91 @@
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
+
+/*
+https://colorhunt.co/palette/258212
+ffcb91  similar a naranja
+ffefa1  similar a amarillo
+94ebcd  similar a turquesa
+6ddccf  similar a celeste
+
+*/
+
+.menu{
+    background: rgb(148,235,205);
+    background: radial-gradient(circle, rgba(148,235,205,1) 11%, rgba(109,220,207,1) 100%);
+    width: 95%;
+    border-radius: 10px;
+    margin: 0px auto;
+    height: 70px;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block; /*importante*/
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+    display: block;     /*importante*/
+    margin: 5px;
+    padding: 16px;
+    transition: 0.5s background-color 0.25s;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.menu a:hover{
+    color: white;
+    background-color: #6ddccf;
+    border: 2px solid #94ebcd;
+}
+
+main{
+    height: 400px;
+    width: 95%;
+    margin: 10px auto;
+    border: 3px solid #6ddccf;
+    border-radius: 10px;
+    background-color: #94ebcd;
+}
+
+main p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#derecha{
+    float: right;
+}
+
+.footer{
+    height: 100px;
+    width: 95%;
+    margin: 10px auto;
+    border: 3px solid #6ddccf;
+    border-radius: 10px;
+    background: rgb(109,220,207);
+    background: radial-gradient(circle, rgba(109,220,207,1) 11%, rgba(148,235,205,1) 100%);
+}
+
+.footer:hover{
+    background: rgb(148,235,205);
+    background: radial-gradient(circle, rgba(148,235,205,1) 11%, rgba(109,220,207,1) 100%);
+
+}
+
+.footer p{
+    text-align: center;
+    padding: 10px;
+}
+
