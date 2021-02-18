@@ -21,6 +21,7 @@ ffefa1  similar a amarillo
     border-radius: 10px;
     margin: 0px auto;
     height: 70px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .menu ul{
@@ -42,8 +43,9 @@ ffefa1  similar a amarillo
     margin: 5px;
     padding: 16px;
     transition: 0.5s background-color 0.25s;
-    border: 2px solid grey;
+    border: 2px solid #6ddccf;
     border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .menu a:hover{
@@ -59,6 +61,7 @@ main{
     border: 3px solid #6ddccf;
     border-radius: 10px;
     background-color: #94ebcd;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 main p{
@@ -79,6 +82,7 @@ main p{
     border-radius: 10px;
     background: rgb(109,220,207);
     background: radial-gradient(circle, rgba(109,220,207,1) 11%, rgba(148,235,205,1) 100%);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .footer:hover{
